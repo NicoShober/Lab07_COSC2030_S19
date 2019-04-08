@@ -1,0 +1,51 @@
+1.) to add comments in c++ you use two slashes (  //  )after the code or on  a fresh line because anything after the two slashes will be ignored by the program
+
+2.) to comment in Python code it it very similar except you use a hash (  #  ) instead in place of two slashes.
+
+3.) .md is a the file type "markdown" and is similiar to text files.
+
+2/18 additions
+
+// 1. Write flag character and repeated pixel.  
+Strip pesky newline at end.
+			
+pixf_cmpr << "\n -rep- " << pix_list[i].substr(0, pix_list[i].find_last_not_of(whitespace)); 
+      //whitespace = string whitespace(" \t\f\v\n\r");
+
+lab02
+Q: creating an object of type T is creating a template that doesnt have a specified data type. When the template function is called, that is when the data type is declared.
+
+lab05
+declaring a binary tree in c++ and Python
+c++;
+
+struct node  
+{ 
+    int data; 
+    struct node *left; 
+    struct node *right; 
+};
+//the in the main function
+struct node *root = newNode( *the data value* ); 
+
+Python;
+
+class Node: 
+    def __init__(self,key): 
+        self.left = None
+        self.right = None
+        self.val = key 
+# then later
+
+root = Node( *the data value* )
+
+lab06
+class Geometric_Calculator_Triangle:
+	def __init__(self, side1, side2, side3):
+		self.polygon = "Triangle"
+		self.side1 = side1
+		self.side2 = side2
+		self.side3 = side3
+	def calculate_triangle_perimeter(self):
+lab07
+no idea
